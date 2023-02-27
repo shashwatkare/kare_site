@@ -1,7 +1,7 @@
 import os
 import requests
 from PIL import Image
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 import streamlit as st
 from streamlit_timeline import timeline
 
@@ -45,8 +45,8 @@ with st.container():
         st.write("I help customer skyrocket :rocket: their profits ")
         st.write("by creating AI/ML products, Python Automation and Webservices ")
         st.write("providing data insights")
-    with right_col:
-        st_lottie(lottie_ani, height=250, key="loader")
+    # with right_col:
+    #     st_lottie(lottie_ani, height=250, key="loader")
 
 timeline_path = os.path.abspath("src")+"/json/timeline.json"
 print(style_path)
